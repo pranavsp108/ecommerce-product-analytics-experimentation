@@ -6,6 +6,7 @@ scipy
 statsmodels
 seaborn
 google-cloud-bigquery
+google-cloud-bigquery-storage
 db-dtypes
 pyarrow
 jupyter
