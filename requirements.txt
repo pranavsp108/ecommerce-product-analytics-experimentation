@@ -1,1 +1,12 @@
-
+pandas
+numpy
+matplotlib
+scikit-learn
+scipy
+statsmodels
+seaborn
+google-cloud-bigquery
+db-dtypes
+pyarrow
+jupyter
+notebook
