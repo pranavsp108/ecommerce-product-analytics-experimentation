@@ -59,8 +59,9 @@ WITH funnel_base AS (
     SUM(CASE WHEN had_begin_checkout = 1 AND had_purchase = 0 THEN 1 ELSE 0 END) AS drop_after_checkout,
 
     -- Supporting behavior metrics
-    SUM(product_views) AS product_view_events,
-    SUM(add_to_carts) AS add_to_cart_events,
+    -- Supporting behavior metrics
+    SUM(item_views) AS product_view_events,     -- Changed from product_views
+    SUM(add_to_carts) AS add_to_cart_events,    -- This one looks correct in your list
     SUM(checkouts_started) AS checkout_events,
     SUM(purchases) AS purchase_events,
     SUM(transactions) AS transactions,
@@ -139,7 +140,7 @@ FROM funnel_rates;
 
 CREATE OR REPLACE TABLE `ecommerce-product-analytics.ecommerce_analytics.mart_funnel_categories`
 PARTITION BY funnel_date
-CLUSTER BY clean_item_category, device_category, traffic_source, traffic_medium
+CLUSTER BY item_category, device_category, traffic_source, traffic_medium
 AS
 
 WITH category_base AS (
