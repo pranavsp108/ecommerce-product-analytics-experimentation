@@ -1,4 +1,9 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+CURRENT_DIR = Path(__file__).resolve().parent
+sys.path.append(str(CURRENT_DIR))
 from pathlib import Path
 
 from src.summary_agent import generate_executive_summary

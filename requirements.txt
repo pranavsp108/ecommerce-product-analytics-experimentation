@@ -11,3 +11,13 @@ db-dtypes
 pyarrow
 jupyter
 notebook
+streamlit
+duckdb
+plotly
+sentence-transformers
+faiss-cpu
+openai
+python-dotenv
+pyyaml
+
+

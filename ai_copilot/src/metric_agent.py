@@ -86,16 +86,40 @@ def get_metric_result(question: str) -> tuple[str, pd.DataFrame, str]:
         metrics = safe_read_csv(BASE_DIR / "outputs/model_metrics.csv")
         lift = safe_read_csv(BASE_DIR / "outputs/top_percentile_lift.csv")
 
-        df = pd.concat(
-            [
-                metrics.head(10).assign(source_table="model_metrics"),
-                lift.head(10).assign(source_table="top_percentile_lift")
-            ],
-            ignore_index=True
-        )
+        metric_rows = []
 
-        source = "outputs/model_metrics.csv; outputs/top_percentile_lift.csv"
-        return intent, df, source
+        for _, row in metrics.iterrows():
+            metric_rows.append({
+                "section": "Model Performance",
+                "metric": f"{row['model']} ROC-AUC",
+                "value": round(row["roc_auc"], 4),
+                "interpretation": "Discrimination ability"
+            })
+            metric_rows.append({
+                "section": "Model Performance",
+                "metric": f"{row['model']} PR-AUC",
+                "value": round(row["pr_auc"], 4),
+                "interpretation": "Precision-recall performance on rare buyers"
+            })
+            metric_rows.append({
+                "section": "Model Performance",
+                "metric": f"{row['model']} PR-AUC Lift",
+                "value": round(row["pr_auc_lift"], 2),
+                "interpretation": "Lift over baseline purchase rate"
+            })
+
+        for _, row in lift.iterrows():
+            metric_rows.append({
+                "section": "Top Percentile Lift",
+                "metric": row["top_percent"],
+                "value": round(row["lift_vs_baseline"], 2),
+                "interpretation": f"Purchase rate: {row['purchase_rate']:.2%}"
+            })
+
+    df = pd.DataFrame(metric_rows)
+
+    source = "outputs/model_metrics.csv; outputs/top_percentile_lift.csv"
+    return intent, df, source
 
     if intent == "experiment_performance":
         df = safe_read_csv(BASE_DIR / "outputs/experiment_lift_results.csv")

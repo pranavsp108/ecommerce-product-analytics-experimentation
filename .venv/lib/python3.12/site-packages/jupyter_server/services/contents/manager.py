@@ -410,7 +410,7 @@ class ContentsManager(LoggingConfigurable):
         """
         raise NotImplementedError
 
-    def file_exists(self, path=""):
+    def file_exists(self, path):
         """Does a file exist at the given path?
 
         Like os.path.isfile
@@ -818,7 +818,7 @@ class AsyncContentsManager(ContentsManager):
         """
         raise NotImplementedError
 
-    async def file_exists(self, path=""):
+    async def file_exists(self, path):
         """Does a file exist at the given path?
 
         Like os.path.isfile
@@ -888,6 +888,10 @@ class AsyncContentsManager(ContentsManager):
 
     # ContentsManager API part 2: methods that have usable default
     # implementations, but can be overridden in subclasses.
+
+    async def resolve_path(self, path: str) -> str | None:
+        """Resolve path relative to root resource."""
+        return None
 
     async def delete(self, path):
         """Delete a file/directory and any associated checkpoints."""

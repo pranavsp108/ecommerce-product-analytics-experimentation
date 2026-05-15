@@ -23,18 +23,18 @@ class APISpecHandler(web.StaticFileHandler, JupyterHandler):
 
     auth_resource = AUTH_RESOURCE
 
-    def initialize(self):
+    def initialize(self):  # type: ignore[override]
         """Initialize the API spec handler."""
         web.StaticFileHandler.initialize(self, path=os.path.dirname(__file__))
 
     @web.authenticated
     @authorized
-    def head(self):
+    def head(self):  # type: ignore[override]
         return self.get("api.yaml", include_body=False)
 
     @web.authenticated
     @authorized
-    def get(self):
+    def get(self):  # type: ignore[override]
         """Get the API spec."""
         self.log.warning("Serving api spec (experimental, incomplete)")
         return web.StaticFileHandler.get(self, "api.yaml")
@@ -52,7 +52,7 @@ class APIStatusHandler(APIHandler):
 
     @web.authenticated
     @authorized
-    async def get(self):
+    async def get(self) -> None:
         """Get the API status."""
         # if started was missing, use unix epoch
         started = self.settings.get("started", utcfromtimestamp(0))
@@ -120,7 +120,7 @@ class IdentityHandler(APIHandler):
     @web.authenticated
     async def patch(self):
         """Update user information."""
-        user_data = cast(dict[UpdatableField, str], self.get_json_body())
+        user_data = cast("dict[UpdatableField, str]", self.get_json_body())
         if not user_data:
             raise web.HTTPError(400, "Invalid or missing JSON body")
 
@@ -140,8 +140,33 @@ class IdentityHandler(APIHandler):
             raise web.HTTPError(501, str(e)) from e
 
 
+class PathResolverHandler(APIHandler):
+    """Path resolver handler."""
+
+    auth_resource = AUTH_RESOURCE
+    _track_activity = False
+
+    @web.authenticated
+    @authorized
+    async def get(self):
+        """Resolve the path."""
+        path = self.get_query_argument("path")
+        kernel_uuid = self.get_query_argument("kernel", default=None)
+        scopes: dict[str, Any] = {"server": self.contents_manager}
+        if kernel_uuid:
+            scopes["kernel"] = self.kernel_manager.get_kernel(kernel_uuid)
+        resolved = [
+            {"scope": name, "path": await ensure_async(scope.resolve_path(path))}
+            for name, scope in scopes.items()
+            if hasattr(scope, "resolve_path")
+        ]
+        response = {"resolved": [entry for entry in resolved if entry["path"] is not None]}
+        self.finish(json.dumps(response))
+
+
 default_handlers = [
     (r"/api/spec.yaml", APISpecHandler),
     (r"/api/status", APIStatusHandler),
     (r"/api/me", IdentityHandler),
+    (r"/api/resolvePath", PathResolverHandler),
 ]
