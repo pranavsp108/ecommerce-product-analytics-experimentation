@@ -1,179 +1,179 @@
 clean_feature,feature,importance
-total events,num__total_events,0.10593905646854504
-days since last session,num__days_since_last_session,0.07604784032728533
-total page views,num__total_page_views,0.06394310217901053
-page views per session,num__page_views_per_session,0.05868845244554926
-item views per session,num__item_views_per_session,0.053896960286351735
-distinct item categories interacted,num__distinct_item_categories_interacted,0.05343426291556857
-events per session,num__events_per_session,0.05242575746561772
-total item views,num__total_item_views,0.05122322309911988
-pct sessions with product view,num__pct_sessions_with_product_view,0.04273287527924717
-favorite view category (not set),cat__favorite_view_category_(not set),0.0378329827260612
-user view to cart session rate missing flag,num__user_view_to_cart_session_rate_missing_flag,0.03257464089378993
-observed lifespan days,num__observed_lifespan_days,0.0319126236622696
-total sessions,num__total_sessions,0.03175143574299524
-sessions with product view,num__sessions_with_product_view,0.03168469176204063
-active days,num__active_days,0.024847903215263742
-low intent sessions,num__low_intent_sessions,0.016680042515818404
-add to carts per session,num__add_to_carts_per_session,0.008459171000040022
-total item selects,num__total_item_selects,0.007789650817995179
-total add to carts,num__total_add_to_carts,0.007784722449042542
-favorite view category Home/Apparel/Hats/,cat__favorite_view_category_Home/Apparel/Hats/,0.007501522409634417
-first device category mobile,cat__first_device_category_mobile,0.00748289619837281
-first country United States,cat__first_country_United States,0.00724120104014515
-first device category desktop,cat__first_device_category_desktop,0.006933287642488535
-sessions with add to cart,num__sessions_with_add_to_cart,0.006892067526850991
-favorite cart category (not set),cat__favorite_cart_category_(not set),0.006498317925796795
-pct sessions with add to cart,num__pct_sessions_with_add_to_cart,0.006203922634447288
-first traffic source (data deleted),cat__first_traffic_source_(data deleted),0.005818830617701672
-first traffic campaign (data deleted),cat__first_traffic_campaign_(data deleted),0.005743146969026471
-first traffic medium (data deleted),cat__first_traffic_medium_(data deleted),0.005575043095376304
-first traffic source <Other>,cat__first_traffic_source_<Other>,0.005244153053940096
-first country Poland,cat__first_country_Poland,0.00499317215804957
-cart abandoned sessions,num__cart_abandoned_sessions,0.004727934670148395
-first traffic campaign <Other>,cat__first_traffic_campaign_<Other>,0.004699523719408289
-first traffic source google,cat__first_traffic_source_google,0.004601855968002562
-first traffic campaign (referral),cat__first_traffic_campaign_(referral),0.004542579607770103
-first traffic medium organic,cat__first_traffic_medium_organic,0.004445041399051145
-first traffic medium referral,cat__first_traffic_medium_referral,0.00443706250527443
-first traffic campaign (organic),cat__first_traffic_campaign_(organic),0.004349139593847243
-favorite view category Home/Apparel/Men's / Unisex/,cat__favorite_view_category_Home/Apparel/Men's / Unisex/,0.004313733491583196
-user cart abandonment rate missing flag,num__user_cart_abandonment_rate_missing_flag,0.004218169330479869
-favorite view category Home/Sale/,cat__favorite_view_category_Home/Sale/,0.004052347064918735
-first traffic source (direct),cat__first_traffic_source_(direct),0.003998780056365327
-first traffic medium <Other>,cat__first_traffic_medium_<Other>,0.003980460181044595
-first traffic medium (none),cat__first_traffic_medium_(none),0.00375501719742076
-user cart to checkout session rate missing flag,num__user_cart_to_checkout_session_rate_missing_flag,0.0037028640730402906
-first traffic campaign (direct),cat__first_traffic_campaign_(direct),0.0036324133829818642
-first country Canada,cat__first_country_Canada,0.003525405835066291
-first traffic source shop.googlemerchandisestore.com,cat__first_traffic_source_shop.googlemerchandisestore.com,0.0034685297651457624
-user view to cart session rate,num__user_view_to_cart_session_rate,0.0034531442865789745
-pct sessions with checkout,num__pct_sessions_with_checkout,0.003445758598086952
-favorite cart category Home/Apparel/Hats/,cat__favorite_cart_category_Home/Apparel/Hats/,0.0031597723329515504
-first country India,cat__first_country_India,0.003067682116056913
-favorite view category Home/Apparel/Women's/,cat__favorite_view_category_Home/Apparel/Women's/,0.0028687279985674862
-first country Brazil,cat__first_country_Brazil,0.0028280458418366828
-checkouts per session,num__checkouts_per_session,0.0027598554115638245
-sessions with checkout,num__sessions_with_checkout,0.0026881210213296
-first country Saudi Arabia,cat__first_country_Saudi Arabia,0.0025467357454755984
-favorite view category Lifestyle/Bags/,cat__favorite_view_category_Lifestyle/Bags/,0.0025024543233791463
-total checkouts started,num__total_checkouts_started,0.0021798079305929757
+total events,num__total_events,0.10592925299238233
+days since last session,num__days_since_last_session,0.0760472146102648
+total page views,num__total_page_views,0.06393307330390292
+page views per session,num__page_views_per_session,0.05868830811646686
+item views per session,num__item_views_per_session,0.05389370009434703
+distinct item categories interacted,num__distinct_item_categories_interacted,0.053434096867942774
+events per session,num__events_per_session,0.05242431094891425
+total item views,num__total_item_views,0.05122830924148294
+pct sessions with product view,num__pct_sessions_with_product_view,0.04273278584679228
+favorite view category (not set),cat__favorite_view_category_(not set),0.037832697796426826
+user view to cart session rate missing flag,num__user_view_to_cart_session_rate_missing_flag,0.032574640893789926
+observed lifespan days,num__observed_lifespan_days,0.03191255991332162
+total sessions,num__total_sessions,0.03175455305786049
+sessions with product view,num__sessions_with_product_view,0.031684721944303815
+active days,num__active_days,0.024847664264058295
+low intent sessions,num__low_intent_sessions,0.01668004706789508
+add to carts per session,num__add_to_carts_per_session,0.008459168836683975
+total item selects,num__total_item_selects,0.007789745104731101
+total add to carts,num__total_add_to_carts,0.007784686550501193
+favorite view category Home/Apparel/Hats/,cat__favorite_view_category_Home/Apparel/Hats/,0.0075013611969504046
+first device category mobile,cat__first_device_category_mobile,0.007482894987256299
+first country United States,cat__first_country_United States,0.00724117309196074
+first device category desktop,cat__first_device_category_desktop,0.006933270938012154
+sessions with add to cart,num__sessions_with_add_to_cart,0.006892154495472096
+favorite cart category (not set),cat__favorite_cart_category_(not set),0.006498314448903752
+pct sessions with add to cart,num__pct_sessions_with_add_to_cart,0.006203922146945394
+first traffic source (data deleted),cat__first_traffic_source_(data deleted),0.005818912976554519
+first traffic campaign (data deleted),cat__first_traffic_campaign_(data deleted),0.00574311538411929
+first traffic medium (data deleted),cat__first_traffic_medium_(data deleted),0.005574892229569853
+first traffic source <Other>,cat__first_traffic_source_<Other>,0.005244073862499746
+first country Poland,cat__first_country_Poland,0.004993139487030882
+cart abandoned sessions,num__cart_abandoned_sessions,0.004727923112145423
+first traffic campaign <Other>,cat__first_traffic_campaign_<Other>,0.004699462091371253
+first traffic source google,cat__first_traffic_source_google,0.004601857771810432
+first traffic campaign (referral),cat__first_traffic_campaign_(referral),0.004542568942814842
+first traffic medium organic,cat__first_traffic_medium_organic,0.0044450515780945265
+first traffic medium referral,cat__first_traffic_medium_referral,0.004436940572263003
+first traffic campaign (organic),cat__first_traffic_campaign_(organic),0.004349142405385987
+favorite view category Home/Apparel/Men's / Unisex/,cat__favorite_view_category_Home/Apparel/Men's / Unisex/,0.004331006873064261
+user cart abandonment rate missing flag,num__user_cart_abandonment_rate_missing_flag,0.004218146984166648
+favorite view category Home/Sale/,cat__favorite_view_category_Home/Sale/,0.004052331352829777
+first traffic source (direct),cat__first_traffic_source_(direct),0.003998807562572438
+first traffic medium <Other>,cat__first_traffic_medium_<Other>,0.003980465604568269
+first traffic medium (none),cat__first_traffic_medium_(none),0.003755029798813279
+user cart to checkout session rate missing flag,num__user_cart_to_checkout_session_rate_missing_flag,0.0037026870722021814
+first traffic campaign (direct),cat__first_traffic_campaign_(direct),0.0036324096193295083
+first country Canada,cat__first_country_Canada,0.0035254446797178423
+first traffic source shop.googlemerchandisestore.com,cat__first_traffic_source_shop.googlemerchandisestore.com,0.003468505227397269
+user view to cart session rate,num__user_view_to_cart_session_rate,0.0034531962370032477
+pct sessions with checkout,num__pct_sessions_with_checkout,0.003445767594030367
+favorite cart category Home/Apparel/Hats/,cat__favorite_cart_category_Home/Apparel/Hats/,0.00315607741845948
+first country India,cat__first_country_India,0.003069070249690455
+favorite view category Home/Apparel/Women's/,cat__favorite_view_category_Home/Apparel/Women's/,0.002868727998567487
+first country Brazil,cat__first_country_Brazil,0.0028280458418366823
+checkouts per session,num__checkouts_per_session,0.0027655624715489193
+sessions with checkout,num__sessions_with_checkout,0.002687340924573005
+first country Saudi Arabia,cat__first_country_Saudi Arabia,0.002546734698125033
+favorite view category Lifestyle/Bags/,cat__favorite_view_category_Lifestyle/Bags/,0.002502478219226928
+total checkouts started,num__total_checkouts_started,0.002179809055059842
 first country South Korea,cat__first_country_South Korea,0.0020126167615718595
-favorite view category Home/Apparel/,cat__favorite_view_category_Home/Apparel/,0.001802128193723303
-first country Austria,cat__first_country_Austria,0.0016116408696684942
-favorite view category Home/Shop by Brand/YouTube/,cat__favorite_view_category_Home/Shop by Brand/YouTube/,0.0015266887645729928
-first traffic medium cpc,cat__first_traffic_medium_cpc,0.0013811680256242097
-first country Ireland,cat__first_country_Ireland,0.0013486934947297038
-first country Mexico,cat__first_country_Mexico,0.0013344136825878576
-first country Croatia,cat__first_country_Croatia,0.0013018249713178027
-first country United Kingdom,cat__first_country_United Kingdom,0.001249896012176942
-first country Spain,cat__first_country_Spain,0.0011765067493053885
-first device category tablet,cat__first_device_category_tablet,0.0011520737248006813
-favorite view category Lifestyle/Drinkware/,cat__favorite_view_category_Lifestyle/Drinkware/,0.0010828522870361644
-first country United Arab Emirates,cat__first_country_United Arab Emirates,0.001037157734752282
-first country France,cat__first_country_France,0.0010015985001649219
-user cart to checkout session rate,num__user_cart_to_checkout_session_rate,0.0008996493150562655
-favorite view category Home/New/,cat__favorite_view_category_Home/New/,0.0008493204348431922
-user cart abandonment rate,num__user_cart_abandonment_rate,0.0007255698741483969
+favorite view category Home/Apparel/,cat__favorite_view_category_Home/Apparel/,0.0018021335206259213
+first country Austria,cat__first_country_Austria,0.0016116555955799515
+favorite view category Home/Shop by Brand/YouTube/,cat__favorite_view_category_Home/Shop by Brand/YouTube/,0.0015266887645729945
+first traffic medium cpc,cat__first_traffic_medium_cpc,0.0013811680256242108
+first country Ireland,cat__first_country_Ireland,0.001348670459794755
+first country Mexico,cat__first_country_Mexico,0.0013344133594561424
+first country Croatia,cat__first_country_Croatia,0.0013018249713178025
+first country United Kingdom,cat__first_country_United Kingdom,0.00124991076412856
+first country Spain,cat__first_country_Spain,0.0011765067493053872
+first device category tablet,cat__first_device_category_tablet,0.0011520737210822737
+favorite view category Lifestyle/Drinkware/,cat__favorite_view_category_Lifestyle/Drinkware/,0.0010814503732945058
+first country United Arab Emirates,cat__first_country_United Arab Emirates,0.001037123408552009
+first country France,cat__first_country_France,0.0010015988107989462
+user cart to checkout session rate,num__user_cart_to_checkout_session_rate,0.0008996539233841986
+favorite view category Home/New/,cat__favorite_view_category_Home/New/,0.0008493201930327944
+user cart abandonment rate,num__user_cart_abandonment_rate,0.0007255698741483966
 favorite cart category Home/Apparel/Men's / Unisex/,cat__favorite_cart_category_Home/Apparel/Men's / Unisex/,0.0007137633435343973
-first country Taiwan,cat__first_country_Taiwan,0.0006370210473113139
-favorite view category Lifestyle/,cat__favorite_view_category_Lifestyle/,0.0005979806275310268
-favorite view category Lifestyle/Small Goods/,cat__favorite_view_category_Lifestyle/Small Goods/,0.0005846334392438455
-first country Italy,cat__first_country_Italy,0.000574102560303986
-favorite view category Home/Apparel/Kids/,cat__favorite_view_category_Home/Apparel/Kids/,0.0005576672588995015
-favorite view category Home/Shop by Brand/Google/,cat__favorite_view_category_Home/Shop by Brand/Google/,0.0005086148476393914
-favorite view category Home/Campus Collection/,cat__favorite_view_category_Home/Campus Collection/,0.0004667287296965398
-favorite view category Home/Stationery/,cat__favorite_view_category_Home/Stationery/,0.0004452884422690955
-first country China,cat__first_country_China,0.00041320141425018854
-favorite view category Home/Eco-Friendly/,cat__favorite_view_category_Home/Eco-Friendly/,0.00040841385492410763
-first country Greece,cat__first_country_Greece,0.0004021569382335226
-first country Germany,cat__first_country_Germany,0.00030762112947668166
-favorite view category Men's T-Shirts/,cat__favorite_view_category_Men's T-Shirts/,0.0002893888704653664
-first country Hong Kong,cat__first_country_Hong Kong,0.00027831018022884236
-first country Turkey,cat__first_country_Turkey,0.0002592703030842857
-favorite cart category Home/Apparel/,cat__favorite_cart_category_Home/Apparel/,0.0002585332127963564
-favorite cart category Home/Sale/,cat__favorite_cart_category_Home/Sale/,0.0002497018479098289
+first country Taiwan,cat__first_country_Taiwan,0.0006370362405415295
+favorite view category Lifestyle/,cat__favorite_view_category_Lifestyle/,0.0005979806275310258
+favorite view category Lifestyle/Small Goods/,cat__favorite_view_category_Lifestyle/Small Goods/,0.000584636556603477
+first country Italy,cat__first_country_Italy,0.0005741025603039864
+favorite view category Home/Apparel/Kids/,cat__favorite_view_category_Home/Apparel/Kids/,0.0005576676106128114
+favorite view category Home/Shop by Brand/Google/,cat__favorite_view_category_Home/Shop by Brand/Google/,0.0005086195818942882
+favorite view category Home/Campus Collection/,cat__favorite_view_category_Home/Campus Collection/,0.0004667287296965397
+favorite view category Home/Stationery/,cat__favorite_view_category_Home/Stationery/,0.0004452794132971132
+first country China,cat__first_country_China,0.00041319879478345534
+favorite view category Home/Eco-Friendly/,cat__favorite_view_category_Home/Eco-Friendly/,0.00040841385492410806
+first country Greece,cat__first_country_Greece,0.0004021569382335235
+first country Germany,cat__first_country_Germany,0.0003076224328298035
+favorite view category Men's T-Shirts/,cat__favorite_view_category_Men's T-Shirts/,0.0002893888704653676
+first country Hong Kong,cat__first_country_Hong Kong,0.00027830968556289104
+first country Turkey,cat__first_country_Turkey,0.00025927030308428616
+favorite cart category Home/Apparel/,cat__favorite_cart_category_Home/Apparel/,0.0002585332127963562
+favorite cart category Home/Sale/,cat__favorite_cart_category_Home/Sale/,0.00024970183839614863
 first country Philippines,cat__first_country_Philippines,0.0002260858409293144
-first country Peru,cat__first_country_Peru,0.00022533917377317293
-favorite view category missing flag,num__favorite_view_category_missing_flag,0.0002161839763954323
-first country Netherlands,cat__first_country_Netherlands,0.00019104332799048062
-favorite cart category Home/Shop by Brand/YouTube/,cat__favorite_cart_category_Home/Shop by Brand/YouTube/,0.00018137719938109658
-first country Sweden,cat__first_country_Sweden,0.0001719349629572227
-first country Singapore,cat__first_country_Singapore,0.00014541900434862268
-favorite view category Home/Stationery/Notebooks/,cat__favorite_view_category_Home/Stationery/Notebooks/,0.0001348260449019542
-first country infrequent sklearn,cat__first_country_infrequent_sklearn,0.0001220841322007319
-first country Russia,cat__first_country_Russia,0.00012070692653457152
-first country Colombia,cat__first_country_Colombia,0.0001203164008221987
-favorite cart category infrequent sklearn,cat__favorite_cart_category_infrequent_sklearn,0.00010827083046812754
-first country Lithuania,cat__first_country_Lithuania,8.900682867943022e-05
-first country Indonesia,cat__first_country_Indonesia,7.826369770533692e-05
-favorite cart category Home/New/,cat__favorite_cart_category_Home/New/,6.339922390556311e-05
-first country Japan,cat__first_country_Japan,6.23605922435575e-05
-favorite cart category Lifestyle/Bags/,cat__favorite_cart_category_Lifestyle/Bags/,5.672018115704167e-05
-favorite cart category Home/Apparel/Women's/,cat__favorite_cart_category_Home/Apparel/Women's/,4.941206144724978e-05
-favorite cart category Lifestyle/Drinkware/,cat__favorite_cart_category_Lifestyle/Drinkware/,4.619024626366699e-05
-favorite cart category Home/Shop by Brand/Google/,cat__favorite_cart_category_Home/Shop by Brand/Google/,4.3784320758923647e-05
-first country (not set),cat__first_country_(not set),4.2085144577123176e-05
-favorite cart category missing flag,num__favorite_cart_category_missing_flag,4.0822947619234414e-05
-first country Australia,cat__first_country_Australia,3.6758923847288075e-05
-first country Switzerland,cat__first_country_Switzerland,3.38145953518208e-05
-favorite view category Home/Shop by Brand/,cat__favorite_view_category_Home/Shop by Brand/,3.271266446010186e-05
-favorite view category Home/Stationery/Stickers/,cat__favorite_view_category_Home/Stationery/Stickers/,3.0012961783049558e-05
-favorite cart category Home/Eco-Friendly/,cat__favorite_cart_category_Home/Eco-Friendly/,2.8925646524009986e-05
-favorite cart category Lifestyle/,cat__favorite_cart_category_Lifestyle/,2.247317672648845e-05
-favorite cart category Home/Stationery/,cat__favorite_cart_category_Home/Stationery/,1.927618988554191e-05
-favorite cart category Home/Apparel/Kids/,cat__favorite_cart_category_Home/Apparel/Kids/,1.766526936048919e-05
-first country Portugal,cat__first_country_Portugal,1.5701543911223895e-05
-favorite view category Home/Shop by Brand/Android/,cat__favorite_view_category_Home/Shop by Brand/Android/,1.247979072448708e-05
-favorite view category Home/Stationery/Writing/,cat__favorite_view_category_Home/Stationery/Writing/,1.0825508832381077e-05
-first country Israel,cat__first_country_Israel,5.548520818670801e-06
-favorite cart category Home/Stationery/Stickers/,cat__favorite_cart_category_Home/Stationery/Stickers/,4.4579061779604456e-06
-first country Thailand,cat__first_country_Thailand,3.543926788030579e-06
-favorite cart category Lifestyle/Small Goods/,cat__favorite_cart_category_Lifestyle/Small Goods/,3.504957148082614e-06
-first country Vietnam,cat__first_country_Vietnam,3.1609127272783755e-06
-first country Malaysia,cat__first_country_Malaysia,3.1538356175184787e-06
-favorite view category Backpacks/,cat__favorite_view_category_Backpacks/,1.963963702217118e-06
-favorite view category infrequent sklearn,cat__favorite_view_category_infrequent_sklearn,9.58408655670823e-07
-first country Belgium,cat__first_country_Belgium,8.94373233585608e-07
-favorite cart category Home/Campus Collection/,cat__favorite_cart_category_Home/Campus Collection/,8.610527843574616e-07
-first country Pakistan,cat__first_country_Pakistan,7.810400916406619e-07
-first country Romania,cat__first_country_Romania,3.642194027298972e-07
-first country Bangladesh,cat__first_country_Bangladesh,1.6546699010805477e-07
-first country Ecuador,cat__first_country_Ecuador,1.417521600184692e-07
-first country Denmark,cat__first_country_Denmark,8.808166226634705e-08
-first country Ukraine,cat__first_country_Ukraine,1.1117717107752917e-08
-first country South Africa,cat__first_country_South Africa,3.712566485313598e-09
-first country Slovakia,cat__first_country_Slovakia,1.0322336399473026e-17
-sessions with cart view,num__sessions_with_cart_view,0.0
-total cart views,num__total_cart_views,0.0
-first country Serbia,cat__first_country_Serbia,0.0
-first country Palestine,cat__first_country_Palestine,0.0
-first country Puerto Rico,cat__first_country_Puerto Rico,0.0
-first country Norway,cat__first_country_Norway,0.0
+first country Peru,cat__first_country_Peru,0.00022531014952479854
+favorite view category missing flag,num__favorite_view_category_missing_flag,0.0002161839763954322
+first country Netherlands,cat__first_country_Netherlands,0.00019104332799048021
+favorite cart category Home/Shop by Brand/YouTube/,cat__favorite_cart_category_Home/Shop by Brand/YouTube/,0.0001813771993810964
+first country Sweden,cat__first_country_Sweden,0.00017193496295722245
+first country Singapore,cat__first_country_Singapore,0.00014541901162380778
+favorite view category Home/Stationery/Notebooks/,cat__favorite_view_category_Home/Stationery/Notebooks/,0.00013482590915698465
+first country infrequent sklearn,cat__first_country_infrequent_sklearn,0.00012208371924392423
+first country Russia,cat__first_country_Russia,0.00012070692653457155
+first country Colombia,cat__first_country_Colombia,0.00012031637347378653
+favorite cart category infrequent sklearn,cat__favorite_cart_category_infrequent_sklearn,0.000108270830468128
+first country Lithuania,cat__first_country_Lithuania,8.90068286794301e-05
+first country Indonesia,cat__first_country_Indonesia,7.826369770533684e-05
+favorite cart category Home/New/,cat__favorite_cart_category_Home/New/,6.339922390556334e-05
+first country Japan,cat__first_country_Japan,6.236059224355778e-05
+favorite cart category Lifestyle/Bags/,cat__favorite_cart_category_Lifestyle/Bags/,5.672368174783284e-05
+favorite cart category Home/Apparel/Women's/,cat__favorite_cart_category_Home/Apparel/Women's/,4.941206144724955e-05
+favorite cart category Lifestyle/Drinkware/,cat__favorite_cart_category_Lifestyle/Drinkware/,4.619024626366819e-05
+favorite cart category Home/Shop by Brand/Google/,cat__favorite_cart_category_Home/Shop by Brand/Google/,4.378432075892421e-05
+first country (not set),cat__first_country_(not set),4.2084126925127776e-05
+favorite cart category missing flag,num__favorite_cart_category_missing_flag,4.082294761923426e-05
+first country Australia,cat__first_country_Australia,3.6758923847288386e-05
+first country Switzerland,cat__first_country_Switzerland,3.381459535182081e-05
+favorite view category Home/Shop by Brand/,cat__favorite_view_category_Home/Shop by Brand/,3.27126644601019e-05
+favorite view category Home/Stationery/Stickers/,cat__favorite_view_category_Home/Stationery/Stickers/,3.001296178304954e-05
+favorite cart category Home/Eco-Friendly/,cat__favorite_cart_category_Home/Eco-Friendly/,2.8925646524010206e-05
+favorite cart category Lifestyle/,cat__favorite_cart_category_Lifestyle/,2.2473176726488373e-05
+favorite cart category Home/Stationery/,cat__favorite_cart_category_Home/Stationery/,1.9276189885542297e-05
+favorite cart category Home/Apparel/Kids/,cat__favorite_cart_category_Home/Apparel/Kids/,1.7665269360489525e-05
+first country Portugal,cat__first_country_Portugal,1.570154391122384e-05
+favorite view category Home/Shop by Brand/Android/,cat__favorite_view_category_Home/Shop by Brand/Android/,1.2479790724487093e-05
+favorite view category Home/Stationery/Writing/,cat__favorite_view_category_Home/Stationery/Writing/,1.0825508832380795e-05
+first country Israel,cat__first_country_Israel,5.548520818670837e-06
+favorite cart category Home/Stationery/Stickers/,cat__favorite_cart_category_Home/Stationery/Stickers/,4.457906177960775e-06
+first country Thailand,cat__first_country_Thailand,3.5439267880306036e-06
+favorite cart category Lifestyle/Small Goods/,cat__favorite_cart_category_Lifestyle/Small Goods/,3.504957148082606e-06
+first country Vietnam,cat__first_country_Vietnam,3.1609127272783848e-06
+first country Malaysia,cat__first_country_Malaysia,3.1538356175185215e-06
+favorite view category Backpacks/,cat__favorite_view_category_Backpacks/,1.963963702217155e-06
+favorite view category infrequent sklearn,cat__favorite_view_category_infrequent_sklearn,9.58408655670842e-07
+first country Belgium,cat__first_country_Belgium,8.943732335855444e-07
+favorite cart category Home/Campus Collection/,cat__favorite_cart_category_Home/Campus Collection/,8.610527843575246e-07
+first country Pakistan,cat__first_country_Pakistan,7.810400916406514e-07
+first country Romania,cat__first_country_Romania,3.642194027298713e-07
+first country Bangladesh,cat__first_country_Bangladesh,1.6546699010803164e-07
+first country Ecuador,cat__first_country_Ecuador,1.4175216001842213e-07
+first country Denmark,cat__first_country_Denmark,8.808166226630725e-08
+first country Ukraine,cat__first_country_Ukraine,1.1117717107751145e-08
+first country South Africa,cat__first_country_South Africa,3.7125664853127046e-09
+first country Slovakia,cat__first_country_Slovakia,1.0322336399473021e-17
+first country Sri Lanka,cat__first_country_Sri Lanka,0.0
 first country Morocco,cat__first_country_Morocco,0.0
+first country Tunisia,cat__first_country_Tunisia,0.0
 first country New Zealand,cat__first_country_New Zealand,0.0
 first country Nigeria,cat__first_country_Nigeria,0.0
-first country Slovenia,cat__first_country_Slovenia,0.0
-first country Kenya,cat__first_country_Kenya,0.0
-first country Kazakhstan,cat__first_country_Kazakhstan,0.0
-first country Jordan,cat__first_country_Jordan,0.0
-first country Latvia,cat__first_country_Latvia,0.0
+sessions with cart view,num__sessions_with_cart_view,0.0
 first country Egypt,cat__first_country_Egypt,0.0
-first country Hungary,cat__first_country_Hungary,0.0
-first country Iraq,cat__first_country_Iraq,0.0
-first country Chile,cat__first_country_Chile,0.0
+total cart views,num__total_cart_views,0.0
+first country Latvia,cat__first_country_Latvia,0.0
+favorite cart category Home/Stationery/Notebooks/,cat__favorite_cart_category_Home/Stationery/Notebooks/,0.0
+first country Slovenia,cat__first_country_Slovenia,0.0
+first country Palestine,cat__first_country_Palestine,0.0
+first country Serbia,cat__first_country_Serbia,0.0
+favorite cart category Men's T-Shirts/,cat__favorite_cart_category_Men's T-Shirts/,0.0
+first country Norway,cat__first_country_Norway,0.0
+first country Algeria,cat__first_country_Algeria,0.0
+first country Kenya,cat__first_country_Kenya,0.0
+favorite view category Home/Apparel/Socks/,cat__favorite_view_category_Home/Apparel/Socks/,0.0
 first country Finland,cat__first_country_Finland,0.0
+first country Puerto Rico,cat__first_country_Puerto Rico,0.0
 first country Dominican Republic,cat__first_country_Dominican Republic,0.0
 first country Czechia,cat__first_country_Czechia,0.0
 first country Costa Rica,cat__first_country_Costa Rica,0.0
-first country Bulgaria,cat__first_country_Bulgaria,0.0
+first country Hungary,cat__first_country_Hungary,0.0
+first country Chile,cat__first_country_Chile,0.0
 first country Argentina,cat__first_country_Argentina,0.0
-first country Algeria,cat__first_country_Algeria,0.0
-first country Kuwait,cat__first_country_Kuwait,0.0
-favorite view category Home/Apparel/Socks/,cat__favorite_view_category_Home/Apparel/Socks/,0.0
-first country Tunisia,cat__first_country_Tunisia,0.0
-first country Sri Lanka,cat__first_country_Sri Lanka,0.0
-favorite view category Water Bottles/,cat__favorite_view_category_Water Bottles/,0.0
+first country Bulgaria,cat__first_country_Bulgaria,0.0
+first country Iraq,cat__first_country_Iraq,0.0
+first country Jordan,cat__first_country_Jordan,0.0
 favorite view category Mugs & Tumblers/,cat__favorite_view_category_Mugs & Tumblers/,0.0
-favorite cart category Home/Stationery/Notebooks/,cat__favorite_cart_category_Home/Stationery/Notebooks/,0.0
-favorite cart category Men's T-Shirts/,cat__favorite_cart_category_Men's T-Shirts/,0.0
+favorite view category Water Bottles/,cat__favorite_view_category_Water Bottles/,0.0
+first country Kazakhstan,cat__first_country_Kazakhstan,0.0
+first country Kuwait,cat__first_country_Kuwait,0.0
