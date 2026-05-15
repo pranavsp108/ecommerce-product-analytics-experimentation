@@ -2,7 +2,7 @@
 
 [View Tableau Dashboard](https://public.tableau.com/views/GA-E-commerce/CustomerSegments?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<!-- [View AI Analytics Copilot](YOUR_STREAMLIT_APP_LINK_HERE) -->
+[View AI Analytics Copilot](https://ecommerce-analytics-copilot.streamlit.app/)
 
 ## Overview
 
@@ -131,22 +131,6 @@ The email campaign produced statistically significant conversion and revenue lif
 ![Customer Segments Dashboard](images/customer_segments_dashboard.png)
 
 ---
----
-
-### AI Copilot Screenshots
-
-#### Executive Summary Generator
-![AI Executive Summary](images/ai_copilot_executive_summary.png)
-
-#### Experiment Analyst
-![AI Experiment Analyst](images/ai_copilot_experiment_analyst.png)
-
-#### Metric & Methodology Q&A
-![AI RAG Q&A](images/ai_copilot_rag_qa.png)
-
-#### Ask Your Metrics
-![AI Ask Your Metrics](images/ai_copilot_ask_metrics.png)
-
 
 ## Project Architecture
 
@@ -189,3 +173,48 @@ flowchart LR
     K --> AA
     O --> AA
     S --> AA
+```
+---
+
+## AI-Powered Analytics Copilot
+
+The project includes a GenAI layer that turns the analytics outputs into an interactive business assistant for product, marketing, and executive stakeholders.
+
+The copilot supports four workflows:
+
+1. **Executive Summary**
+   - Generates stakeholder-ready summaries from Tableau export files, model outputs, and experiment results.
+
+2. **Experiment Analyst**
+   - Interprets treatment-control results, conversion lift, revenue-per-user lift, bootstrap confidence intervals, and rollout recommendations.
+
+3. **Metric & Methodology Q&A**
+   - Uses retrieval-augmented generation over project documentation to answer questions about metric definitions, SQL logic, dashboard methodology, modeling assumptions, and experiment design.
+
+4. **Ask Your Metrics**
+   - Answers natural-language questions over curated KPI, category, customer segment, model, and experiment output files.
+
+### AI Stack
+
+- Streamlit for the app interface
+- OpenAI API for reasoning and summarization
+- SentenceTransformers for local document embeddings
+- FAISS for vector search
+- Pandas for structured output handling
+- Saved markdown demo outputs for no-key public demos
+
+The app includes **Demo Mode**, allowing users to view saved AI-generated examples without entering an API key or making live OpenAI calls.
+
+### AI Copilot Screenshots
+
+#### Executive Summary Generator
+![AI Executive Summary](images/ai_copilot_executive_summary.png)
+
+#### Experiment Analyst
+![AI Experiment Analyst](images/ai_copilot_experiment_analyst.png)
+
+#### Metric & Methodology Q&A
+![AI RAG Q&A](images/ai_copilot_rag_qa.png)
+
+#### Ask Your Metrics
+![AI Ask Your Metrics](images/ai_copilot_ask_metrics.png)
