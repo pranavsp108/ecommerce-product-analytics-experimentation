@@ -1,0 +1,36 @@
+tables:
+  executive_scorecard:
+    path: "../data/tableau_exports/tableau_executive_scorecard.csv"
+    description: "Overall executive KPI summary including revenue, sessions, active users, conversion rate, AOV, and cart abandonment."
+
+  kpi_daily:
+    path: "../data/tableau_exports/tableau_kpi_daily.csv"
+    description: "Daily KPI trends including revenue, sessions, conversion, and active users."
+
+  funnel_daily:
+    path: "../data/tableau_exports/tableau_funnel_daily.csv"
+    description: "Daily funnel metrics across product view, add to cart, checkout, and purchase."
+
+  category_performance:
+    path: "../data/tableau_exports/tableau_category_performance.csv"
+    description: "Category-level revenue, product views, add-to-cart behavior, and conversion metrics."
+
+  segment_summary:
+    path: "../data/tableau_exports/tableau_segment_summary.csv"
+    description: "Customer segment size, revenue, buyer rate, user share, revenue share, and recommended actions."
+
+  model_metrics:
+    path: "../outputs/model_metrics.csv"
+    description: "Purchase propensity model performance metrics."
+
+  propensity_decile_lift:
+    path: "../outputs/propensity_decile_lift.csv"
+    description: "Model lift by propensity score decile."
+
+  experiment_lift_results:
+    path: "../outputs/experiment_lift_results.csv"
+    description: "Treatment-control conversion and revenue lift results."
+
+  experiment_segment_lift:
+    path: "../outputs/experiment_segment_lift.csv"
+    description: "Segment-level treatment effects for the email experiment."

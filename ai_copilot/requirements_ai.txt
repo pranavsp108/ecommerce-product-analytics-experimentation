@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+duckdb
+plotly
+sentence-transformers
+faiss-cpu
+openai
+python-dotenv
+pyyaml

@@ -1,6 +1,8 @@
-# E-Commerce Product Analytics & Experimentation Platform
+# E-Commerce Product Analytics, Experimentation & AI Copilot Platform
 
 [View Tableau Dashboard](https://public.tableau.com/views/GA-E-commerce/CustomerSegments?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<!-- [View AI Analytics Copilot](YOUR_STREAMLIT_APP_LINK_HERE) -->
 
 ## Overview
 
@@ -16,6 +18,7 @@ The project combines:
 - Customer segmentation
 - Purchase propensity modeling
 - A/B testing and campaign experimentation
+- AI-powered analytics copilot for natural-language KPI Q&A, metric documentation, executive summaries, and experiment interpretation
 - Business recommendations for product and marketing teams
 
 The core dataset is the Google Analytics 4 BigQuery E-Commerce Demo Dataset. For the experimentation module, the project uses the MineThatData Email Campaign dataset to evaluate conversion lift, revenue lift, confidence intervals, and segment-level treatment effects.
@@ -128,6 +131,22 @@ The email campaign produced statistically significant conversion and revenue lif
 ![Customer Segments Dashboard](images/customer_segments_dashboard.png)
 
 ---
+---
+
+### AI Copilot Screenshots
+
+#### Executive Summary Generator
+![AI Executive Summary](images/ai_copilot_executive_summary.png)
+
+#### Experiment Analyst
+![AI Experiment Analyst](images/ai_copilot_experiment_analyst.png)
+
+#### Metric & Methodology Q&A
+![AI RAG Q&A](images/ai_copilot_rag_qa.png)
+
+#### Ask Your Metrics
+![AI Ask Your Metrics](images/ai_copilot_ask_metrics.png)
+
 
 ## Project Architecture
 
@@ -136,18 +155,37 @@ flowchart LR
     A[GA4 BigQuery E-Commerce Demo Dataset] --> B[BigQuery SQL Analytics Layer]
     B --> C[Staging Tables]
     C --> D[Intermediate Session and User Tables]
-    D --> E[Mart Tables]
+    D --> E[Analytics Mart Tables]
+
     E --> F[Tableau Export Tables]
-    E --> G[Python Notebooks]
+    E --> G[Python Analysis Notebooks]
+    E --> H[ML Feature Export]
 
-    G --> H[Data Quality EDA]
-    G --> I[Purchase Propensity Modeling]
-    G --> J[Experimentation Analysis]
+    F --> I[Tableau Dashboards]
+    G --> J[Data Quality EDA]
+    H --> K[Purchase Propensity Modeling]
+    G --> L[Customer Segmentation Analysis]
 
-    F --> K[Tableau Dashboards]
-    I --> L[Scored Users and Model Outputs]
-    J --> M[Experiment Lift Outputs]
+    M[MineThatData Email Campaign Dataset] --> N[Experimentation Notebook]
+    N --> O[Experiment Lift Outputs]
 
-    K --> N[Business Recommendations]
-    L --> N
-    M --> N
+    K --> P[Model Metrics, Lift Tables, Scored Users]
+    I --> Q[Dashboard Screenshots]
+    F --> R[CSV Analytics Outputs]
+    O --> R
+    P --> R
+
+    R --> S[AI-Powered Analytics Copilot]
+    T[Knowledge Base: Metric Definitions, SQL Logic, Methodology Notes] --> S
+    U[OpenAI API] --> S
+    V[SentenceTransformers + FAISS] --> S
+
+    S --> W[Natural-Language KPI Q&A]
+    S --> X[Metric & Methodology RAG]
+    S --> Y[Executive Summary Generator]
+    S --> Z[Experiment Analyst]
+
+    I --> AA[Business Recommendations]
+    K --> AA
+    O --> AA
+    S --> AA
