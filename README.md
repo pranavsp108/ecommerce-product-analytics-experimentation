@@ -4,6 +4,9 @@
 
 [View AI Analytics Copilot](https://ecommerce-analytics-copilot.streamlit.app/)
 
+
+[Read Full Project Case Study](reports/project_case_study.md)
+
 ## Overview
 
 This project simulates the work of a product data scientist at an e-commerce company.
